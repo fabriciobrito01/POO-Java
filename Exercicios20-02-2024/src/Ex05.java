@@ -5,11 +5,11 @@ public class Ex05 {
         Scanner teclado = new Scanner(System.in);
 
         System.out.print("Digite o tempo em segundos: ");
-        int t = teclado.nextInt(); // para ler os segundos
+        int t = teclado.nextInt();
 
-        int horas = t / 3600; // convertendo em hs
-        int minutos = (t % 3600) / 60; // convertendo em min
-        int segundos = t % 60; // convertendo em seg
+        int horas = t / 3600;
+        int minutos = (t % 3600) / 60;
+        int segundos = t % 60;
 
         System.out.println(t + " segundos equivalem a: " + horas + " horas, " + minutos + " minutos e " + segundos + " segundos.");
     }
